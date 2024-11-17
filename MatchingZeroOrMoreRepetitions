@@ -1,0 +1,13 @@
+/*
+w* : It will match the character w  or more times.
+[xyz]* : It will match the characters x, y or z  or more times.
+\d* : It will match any digit  or more times.
+*/
+
+public class Solution {    
+    public static void main(String[] args) {
+        Regex_Test tester = new Regex_Test();
+    tester.checker("^\\d{2,}[a-z]*[A-Z]*$"); // Use \\ instead of using \ 
+
+}
+}
