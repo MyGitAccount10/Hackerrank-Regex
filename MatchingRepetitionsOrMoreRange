@@ -1,0 +1,19 @@
+/*
+w{3,5} : It will match the character w ,  or  times.
+[xyz]{5,} : It will match the character x, y or z  or more times.
+\d{1, 4} : It will match any digits , , , or  times.
+
+*/
+
+import java.io.*;
+import java.util.*;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {    
+    public static void main(String[] args) {
+        Regex_Test tester = new Regex_Test();
+
+        tester.checker("^[0-9]{1,2}[a-zA-Z]{3,}[.]{0,3}$"); // Use \\ instead of using \ 
+}}
